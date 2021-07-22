@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/mainlogo"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:gravity="center"
+       android:orientation="vertical"
+       android:layout_marginTop="200dp"
+       >
+
+
+
+      <EditText
+          android:id="@+id/edtPhon"
+          android:layout_width="match_parent"
+          android:layout_height="65dp"
+          android:layout_margin="12dp"
+          android:background="@drawable/edittext_bg"
+          android:drawableLeft="@drawable/phonecall"
+          android:hint="Phone Number"
+          android:inputType="phone"
+          android:padding="1dp"
+          android:textColor="@color/black"
+          android:textSize="34sp" />
+
+      <EditText
+          android:id="@+id/edtPass"
+          android:layout_width="match_parent"
+          android:layout_height="65dp"
+          android:layout_margin="12dp"
+          android:background="@drawable/edittext_bg"
+          android:drawableLeft="@drawable/key4"
+          android:hint="Password"
+          android:inputType="textPassword"
+          android:padding="1dp"
+          android:textColor="@color/black"
+          android:textSize="34sp" />
+
+      <Button
+          android:id="@+id/btnsubmit"
+          android:layout_width="match_parent"
+          android:layout_height="65dp"
+          android:layout_margin="12dp"
+          android:background="@drawable/btn_bg"
+          android:text="submit" />
+
+   </LinearLayout>
+
+</LinearLayout>
